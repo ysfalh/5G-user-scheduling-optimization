@@ -3,9 +3,9 @@ This project aims at designing optimal packet schedulers by providing an online 
 
 To find out more about the problem we try to solve and how we address it, please open "problem_description.pdf" in the main directory.
 
-# How to test the code
+## How to test the code
 We provide the command lines to execute the Java scripts in the code directory.
-## Preprocessing step
+### Preprocessing step
 arguments: String [] path, boolean display (= false)
 
 output: Returns the results of preprocessing the file with address path. The boolean display is used to request the display of Xnkm tables after preprocessing.
@@ -13,7 +13,7 @@ output: Returns the results of preprocessing the file with address path. The boo
 example: java Preprocessing ../testfiles/test1.txt true
 
 
-## Dynamic Programming solution
+### Dynamic Programming solution
 arguments: String [] path, boolean display (= false)
 
 output: Returns the results after applying dynamic programming algorithms to the path file. The boolean display is used to request the display of Xnkm tables after processing.
@@ -35,14 +35,14 @@ output: Returns the results obtained after applying the online algorithm on an '
 
 example: java Online 1000000
 
-## Second online solution
+### Second online solution
 arguments: int iterations (= 10,000)
 
 output: Returns the results obtained after applying the online2 algorithm on a number of 'iteration' of operations. These results are obtained compared to the greedy algorithm applied to the same problem once all the users have been generated, after the fact.
 
 example: java Online2 1000000
 
-## Third online solution
+### Third online solution
 arguments: int iterations (= 10,000)
 
 output: Returns the results obtained after applying the online3 algorithm on a number of 'iteration' operations. These results are obtained compared to the greedy algorithm applied to the same problem once all the users have been generated, after the fact.
