@@ -10,7 +10,7 @@ arguments: String [] path, boolean display (= false)
 
 output: Returns the results of preprocessing the file with address path. The boolean display is used to request the display of Xnkm tables after preprocessing.
 
-example: java Preprocessing /home/user/Documents/testfiles/test1.txt true
+example: java Preprocessing ../testfiles/test1.txt true
 
 
 ## Dynamic Programming solution
@@ -18,7 +18,7 @@ arguments: String [] path, boolean display (= false)
 
 output: Returns the results after applying dynamic programming algorithms to the path file. The boolean display is used to request the display of Xnkm tables after processing.
 
-example: java DynamicPrograming /home/user/Documents/testfiles/test1.txt true
+example: java DynamicPrograming ../testfiles/test1.txt true
 
 
 ## Greedy solution
@@ -26,7 +26,7 @@ input: String [] path, boolean display (= false)
 
 output: Returns the results after applying the greedy algorithm on the path file. The boolean display is used to request the display of Xnkm tables after processing.
 
-example: java Greedy /home/user/Documents/testfiles/test1.txt true
+example: java Greedy ../testfiles/test1.txt true
 
 ## First online solution
 arguments: int iterations (= 10,000)
