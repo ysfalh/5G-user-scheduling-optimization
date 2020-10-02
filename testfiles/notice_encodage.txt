@@ -1,0 +1,6 @@
+Dear all,
+
+I forgot to tell you how the test files are encoded.
+The first values are in this order: N, M, K, p.
+
+Then, there are the matrices p_kmn for every n; then the matrices r_kmn for every n.
