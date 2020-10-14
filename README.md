@@ -1,4 +1,4 @@
-# 5G_user_scheduling_optimization
+# 5G-user-scheduling-optimization
 This project aims at designing optimal packet schedulers by providing an online solution to the NP-hard integer linear programming problem of network scheduling.
 
 ## Project description
